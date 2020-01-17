@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Consolas, Edwardian Script ITC;
+    src: url(../fonts/EdwardianScriptITC.ttf);
+}
+
+p {
+    color: #2f8dcf;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+p:first-letter {
+    font-family: Consolas, Edwardian Script ITC;
+    font-size: 3.0em;
+}
+
+p:first-line {
+    font: outline;
+}
+
+p:first-line {
+    font-family: Consolas;
+    font-weight: bold;
+}
